@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <img src="./images/lista-telefonica.png" alt="lista-telefonica">
+    <h2>Lista de Contatos</h2>
+
+    <table id="tabela-contatos" border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <form id="form-contato">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" required>
+
+        <label for="telefone">Telefone: </label>
+        <input type="tel" id="telefone" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+</html>
